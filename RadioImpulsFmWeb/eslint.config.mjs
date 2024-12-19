@@ -23,4 +23,9 @@ export default [
   },
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
+  {
+    rules: {
+      "react/prop-types": "off", // Отключение подсветки пропсов у компонентов без указания prop-types
+    },
+  },
 ];
