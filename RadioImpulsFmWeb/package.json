@@ -21,6 +21,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
+    "dev": "webpack serve --env mode=development",
     "start": "webpack serve --env mode=development",
     "build": "webpack --env mode=development",
     "build:dev": "webpack --env mode=development",
