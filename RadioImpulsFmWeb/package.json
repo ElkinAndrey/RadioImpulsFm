@@ -7,9 +7,13 @@
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,html}"
   },
   "browserslist": {
     "production": [
