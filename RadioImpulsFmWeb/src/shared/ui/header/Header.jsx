@@ -9,7 +9,7 @@ const Header = ({ title = "", startAdornment = null, endAdornment = null, childr
         <span className={classes.title}>{title}</span>
         <div>{endAdornment}</div>
       </header>
-      <main>{children}</main>
+      <main className={classes.main}>{children}</main>
     </div>
   );
 };

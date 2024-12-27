@@ -1,9 +1,12 @@
 .root {
   background-color: #293350;
   height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .header {
+  padding: 0px min(10px, 3vw);
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   background-color: #455078;
@@ -24,7 +27,13 @@
 }
 
 .title {
-  margin: 11px;
+  margin: 10px 0px;
   font-size: 20px;
   color: #ffffff;
+}
+
+.main {
+  flex: 1 0 auto;
+  overflow-y: auto;
+  padding: min(10px, 3vw);
 }

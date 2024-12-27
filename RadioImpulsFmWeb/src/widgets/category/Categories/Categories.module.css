@@ -1,0 +1,9 @@
+.root {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}

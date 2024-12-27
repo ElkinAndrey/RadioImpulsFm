@@ -1,0 +1,11 @@
+.customLoader {
+  margin: -2px 0px;
+  border-radius: 50%;
+  animation: animate 1s infinite linear;
+}
+
+@keyframes animate {
+  100% {
+    transform: rotate(1turn);
+  }
+}

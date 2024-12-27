@@ -1,0 +1,14 @@
+.button,
+.buttonBorder {
+  padding: 14px 8px;
+  border: 0px;
+  background-color: #344165;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  text-align: start;
+}
+
+.buttonBorder {
+  border-bottom: 1px solid #273255;
+}

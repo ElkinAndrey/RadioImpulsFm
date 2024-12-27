@@ -1,0 +1,11 @@
+.root {
+  padding: 0;
+  padding: 3px;
+  background-color: inherit;
+  border: 0px;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
