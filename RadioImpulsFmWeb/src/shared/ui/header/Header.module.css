@@ -1,0 +1,30 @@
+.root {
+  background-color: #293350;
+  height: 100vh;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  background-color: #455078;
+}
+
+.startAdornment,
+.endAdornment {
+  display: flex;
+  align-items: center;
+}
+
+.startAdornment {
+  justify-content: start;
+}
+
+.endAdornment {
+  justify-content: end;
+}
+
+.title {
+  margin: 11px;
+  font-size: 20px;
+  color: #ffffff;
+}
