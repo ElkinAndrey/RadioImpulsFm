@@ -1,0 +1,31 @@
+.root {
+  list-style-type: none;
+  background-color: #373741;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px #5866f2 dotted;
+}
+
+.title {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #ffffff;
+}
+
+.count {
+  font-size: 14px;
+  font-weight: 500;
+  color: #96989e;
+}

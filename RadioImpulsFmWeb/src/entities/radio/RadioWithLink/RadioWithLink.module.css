@@ -1,0 +1,25 @@
+.root {
+  list-style-type: none;
+  background-color: #2a2c30;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.name {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.link {
+  font-size: 14px;
+  color: #96989e;
+}

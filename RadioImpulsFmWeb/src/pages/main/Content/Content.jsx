@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import useCategories from "../../../entities/category/model/useCategories";
 import { ErrorApi, Loader, Logo } from "@/shared/ui";
 import { Categories } from "@/widgets/category";
 import { Radios, WorkingRadio } from "@/widgets/radio";
+import { useCategories } from "@/entities/category";
 
 const Content = ({ selectCategory = null, setSelectCategory = (category) => category }) => {
   const [selectRadio, setSelectRadio] = useState(null);
